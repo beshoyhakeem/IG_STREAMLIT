@@ -4,8 +4,8 @@ import faiss
 import json
 from IPython.display import Markdown
 
-DATA_PATH = 'C:/Users/besho/Desktop/IG-PROJECT/RAG_streamlit/RAG_streamlit/gpt_rag.csv'
-FAISS_PATH = "C:/Users/besho/Desktop/IG-PROJECT/RAG_streamlit/RAG_streamlit/cosine_sim_index.faiss"
+DATA_PATH = 'files/gpt_rag.csv'
+FAISS_PATH = "files/cosine_sim_index.faiss"
 
 def check_data():
     global daf, index
